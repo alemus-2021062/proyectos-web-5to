@@ -1,0 +1,194 @@
+.menu{
+    background-color: #06296b;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #101217;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    text-align: center;
+    text-shadow: 15px;
+    color: white;
+}
+
+.menu:hover{
+    background-color: #22488f;
+    text-shadow: #fff 0 0 10px;
+    font-size: 22px;
+
+}
+
+nav{
+    padding: 5px;
+    background-color:#06296b;
+}
+
+
+
+main{ 
+    background-color: rgba(9, 83, 194, 0.919);
+    height: 100vh;
+    /*display: flex;
+    justify-content: left;
+    align-items: center;*/
+}
+
+
+#article1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3cm;
+    padding-left: 40px;
+    text-align: center;
+    color:beige;
+    text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+                 padding: 5px;
+}
+
+#imagen-inicio{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 400px;
+    width: 400px;
+}
+
+#parrafo-bienvenida{
+    font-size: 20px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    height:100%;
+}
+
+footer{
+    padding: 4px;
+    background-color: #06296b;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+ 
+}
+
+.flexslider{
+    height: 850px;
+    width: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.flexslider .slides img {
+    height: 850px;
+    width: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+
+#article-flexslider{
+    background-color:rgba(9, 83, 194, 0.919) ;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*-------------------- BIOGRAFIA -------------------*/
+
+#foto-biografia{
+    width: 400px;
+    height: 500px;
+    border-radius: 40%;
+}
+
+#texto-biografia{
+    text-align: center;
+    font-size: 0.5cm;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    color: white;
+    padding-right: 30px;
+}
+
+#titulo-biografia{
+    font-size: 2cm;
+    color: white;
+    text-shadow: #fff 0 0 10px;
+    text-align: center;
+}
+
+#hijo-de{
+    text-decoration:underline;
+}
+
+/*-------------------- VIDEOS FAVORITOS -------------------------*/
+
+.videos-titulos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    padding-block: 30px;
+    text-shadow: #fff 0 0 20px;
+}
+
+.texto-video{
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.titulo-videos{
+    font-size: 30px;
+    text-align: center;
+    padding-left:90px;
+    padding-right: 90px;
+}
+
+.videos-links{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.diseño-links{
+    text-decoration: none;
+    color: black;
+    
+}

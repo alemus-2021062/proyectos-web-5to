@@ -1,0 +1,13 @@
+{
+    "name": "sitio-web-kinal-in5bm-alberto-lemus-netbeans",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
